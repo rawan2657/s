@@ -82,3 +82,15 @@ font-size: 50px;
 color: white;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+@media(max-width:567){
+
+    section{
+    width: 80%;
+   height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+border-style: solid ;
+    border-radius: 5px;
+    margin-top:50px;
+}
+}
