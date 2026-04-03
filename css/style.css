@@ -82,15 +82,20 @@ font-size: 50px;
 color: white;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-@media(max-width:567){
-
-    section{
-    width: 80%;
-   height: 400px;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-border-style: solid ;
-    border-radius: 5px;
-    margin-top:50px;
-}
+@media (max-width: 567px) {
+    section {
+        height: 100px;
+    }
+    .container {
+        gap: 5px;
+    }
+    .overlay1 h3,
+    .overlay2 h3,
+    .overlay3 h3,
+    .overlay4 h3,
+    .overlay5 h3 {
+        font-size: 25px; 
+    }
+    .div1,.div2 ,.div5,.div4 ,.div3{
+     height: 100%; }
 }
